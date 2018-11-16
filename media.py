@@ -3,7 +3,15 @@ import webbrowser
 
 # create a class
 class Movie():
-    """This class provies a way to store movie related information"""
+    """This class provies a way to store movie related information
+	
+	Attributes: 
+		movie_title(string): Title of movie
+		movie_storyline(string): Brief Description of the movie's plot
+		poster_image(string): Official movie cover poster
+		trailer(string): Video trailer of movie		
+		
+	"""
 
     # The following 2 lines of code are not in use--only kept for reference 
     '''create a CONSTANT class variable all caps
